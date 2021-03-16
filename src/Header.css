@@ -1,0 +1,50 @@
+.section__header {
+    height: 50vh;
+    background-image: url(./bitcoin.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 40vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 40vh, 0 100%);  
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__header--nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.section__header--nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 2rem;
+}
+
+.section__header--hero {
+    width: 30%;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .section__header--hero {
+    width: 60%;
+}
+  }
+
+.section__header--hero h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .section__header--hero {
+        background-color: rgba(15, 15, 15, .6)
+    }
+  }
+
+

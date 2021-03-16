@@ -1,0 +1,82 @@
+.section__info {
+    width: 100%;
+}
+
+.section__info h1 {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.section__info--learning {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section__info--learning-popup {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(15, 15, 15, .6);
+    z-index: 3000;
+}
+
+.section__info--learning-popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background-color: #13131b;
+    padding: 5rem;
+}
+
+.section__info-button {
+    font-family: 'DotGothic16', sans-serif;
+    display: inline-block;
+    border: none;
+    background-color: #13131b;
+    padding: 3rem;
+    color: white;
+    font-size: 2rem;
+    margin: 1.5rem;
+    transition: all .5s;
+}
+
+.section__info-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.popup-close {
+    position: absolute;
+    top: 1rem;
+    right: 2.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    color: #ba0001;
+}
+
+.popup-text {
+    color: #fff;
+    font-size: 1.6rem;
+    -moz-column-count: 3;
+    column-count: 3;
+    -moz-column-gap: 5rem;
+    column-gap: 5rem;
+    -moz-column-rule: 1px solid #576163;
+    column-rule: 1px solid #576163;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
